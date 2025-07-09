@@ -1,11 +1,11 @@
-TARGET_IP      = "192.168.158.3"
+TARGET_IP      = "10.220.238.239"
 TARGET_PORT    = 80
 VULN_PATH      = "/dvwa/vulnerabilities/exec/"
 
 DVWA_USER = "admin"
 DVWA_PASS = "password"
 # REVERSE SHELL
-LISTENER_IP    = "192.168.158.1"     
+LISTENER_IP    = "10.220.38.190"     
 LISTENER_PORT  = 4444
 
 # SSH

